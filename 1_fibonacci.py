@@ -14,8 +14,8 @@ def fibonacci_recursive(n):
     else:
         return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
-print(fibonacci_non_recursive(50))
-print(fibonacci_recursive(50))
+print(fibonacci_non_recursive(5))
+print(fibonacci_recursive(5))
 
 '''
 Non-Recursive Implementation:
